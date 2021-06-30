@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4 mijl</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <header>
+        <nav id="mainNavbar" class="navbar navbar-expand-lg navbar-light py-0 fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <h1><span>4</span>mijl van Groningen</h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Info</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Nieuws</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Inschrijven</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="container-fluid maincontent px-3">
+        <div class="row">
+            <div class="col-12 col-xl-10">
+                <section class="container-fluid px-0">
+                    <div class="row align-items-center sectie">
+                        <div class="col-lg-4">
+                            <img class="img-fluid" src="imgs/fourmilemedals.jpg" alt="">
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="row justify-content-center my-5">
+                                <div class="col-8 text-center txt-area">
+                                    <h2>Hardlopen in Groningen</h2>
+                                    <p>De 4 mijl van Groningen is een hardloop-event dat elk jaar in oktober wordt
+                                        gehouden. Het bestaat onder andere uit een recreantenloop, wedstrijdloop en
+                                        bedrijvenloop. Ook staan er tienduizenden supporters langs de route om de
+                                        deelnemers
+                                        aan te moedigen.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <img class="img-fluid" src="imgs/runninginpark.jpg" alt="">
+                        </div>
+                    </div>
+                </section>
+                <section class="container-fluid px-0">
+                    <div class="row align-items-center sectie">
+                        <div class="col-lg-4">
+                            <div class="row justify-content-center my-5">
+                                <div class="col-8 text-center txt-area">
+                                    <h2>Waarom een 4mijl site?</h2>
+                                    <p> De 4mijl is voor mij altijd een goede motivatie om met mijn conditie bezig te
+                                        zijn. We doen altijd met een groep korfbalvrienden mee, en genieten na die tijd
+                                        van een hapje en een drankje in de stad. Het is voor mij dus een mooie
+                                        combinatie van sport en gezelligheid.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <img class="img-fluid" src="imgs/runningmatch.jpg" alt="">
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="row justify-content-center my-5">
+                                <div class="col-8 text-center txt-area">
+                                    <h2>Trainingsschema</h2>
+                                    <p>Begin ruim op tijd met trainen, en ga een paar keer in de week trainen. Bouw je
+                                        loopafstand stukje bij beetje op, en durf
+                                        jezelf uit te dagen, maar pas op dat je jezelf niet overtraint. Trainingen zijn
+                                        altijd beter vol te houden als je samen traint.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="container-fluid px-0">
+                    <div class="row align-items-center sectie">
+                        <div class="col-lg-4">
+                            <img class="img-fluid" src="imgs/groningenstad.jpg" alt="">
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="row justify-content-center text-center my-5">
+                                <div class="col-10 txt-area" id="signupList">
+                                    <h2>Laatste inschrijvingen:</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 text-center txt-area">
+                            <h2>Inschrijven</h2>
+                            <form action="/data" id="signupForm">
+                                <div>
+                                    <label for="fullName">Naam:</label>
+                                    <input type="text" id="fullName" name="naam" placeholder="Naam">
+                                </div>
+                                <div>
+                                    <label for="email">Email:</label>
+                                    <input type="email" id="email" name="email" placeholder="Email-adres">
+                                </div>
+                                <div>
+                                    <label for="run">Event:</label>
+                                    <select name="run" id="run">
+                                        <option value="">---Kies een run---</option>
+                                        <option value="recreantenloop">Recreantenloop</option>
+                                        <option value="wedstrijdloop">Wedstrijdloop</option>
+                                        <option value="bedrijvenloop">Bedrijvenloop</option>
+                                    </select>
+                                </div>
+                                <button>Inschrijven</button>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="col-xl-2 d-none d-xl-inline text-center trivia txt-area py-3">
+                <h2>4mijl trivia</h2>
+                <p>Dit jaar is al de 34 editie van de 4mijl. De eerste editie was in 1987.</p>
+                <p>4 mijl is 6437 meter, maar tot en met 2004 werd er 6666 meter gelopen.</p>
+                <p>De 4mijl heeft elk jaar rond de 23.000 deelnemers.</p>
+                <p>Aan de wedstrijdloop van de 4mijl doen ook wereldtoppers mee.</p>
+                <p>De snelste tijd ooit op de 4mijl van Groningen is 17.06, gelopen door Vincent Yator uit Kenia.</p>
+                <p>De snelste dames-tijd op deze 4mijl is 19.14, gelopen door Viola Kibiwot uit Kenia.</p>
+
+            </div>
+        </div>
+    </section>
+    <footer class="text-center txt-area">
+        Copyright: Jelle Slofstra
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

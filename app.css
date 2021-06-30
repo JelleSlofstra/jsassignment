@@ -1,0 +1,120 @@
+body{
+    background-color: #D3F2FA;
+    font-family: "Nunito", sans-serif;
+}
+
+.maincontent {
+    padding-top:70px;
+}
+
+.txt-area h2 {
+    color: #03045E;
+}
+
+.txt-area {
+    color: #0077B6;
+    font-weight: 200;
+    font-size: 1.1rem;
+    line-height:2;
+}
+
+.trivia{
+    border-radius: 20px;
+    border: double #03045E;
+    color: #0077B6;
+}
+
+.trivia p {
+    padding-top: 50px;
+}
+
+img{
+    border-radius: 50%;
+    border: solid #03045E 2px;
+}
+
+#mainNavbar{
+    font-size: 1.5em;
+    font-weight: 300;
+    background-color: #D3F2FA;
+}
+
+#mainNavbar .nav-link{
+    color : #0077B6;
+}
+
+#mainNavbar .nav-link:hover{
+    color : #03045E;
+}
+
+h1 {
+    color: #03045E;
+}
+
+h1 span{
+    color: #FFFF55;
+}
+
+form div{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#txt-area li {
+    text-align: center;
+}
+
+input, select {
+    background: #ecf0f3;
+    padding: 10px;
+    padding-left: 20px;
+    height: 50px;
+    font-size: 14px;
+    border-radius: 50px;
+    box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+    border: none;
+}
+
+form button {
+    margin-top: 20px;
+    background: #1DA1F2;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 900;
+    box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+    transition: 0.5s;
+    width: 60%;
+    padding: 0;
+    border: none;
+}
+  
+form button:hover {
+    box-shadow: none;
+}
+
+footer {
+    background-color: #a8dadc;
+    margin-top: 30px;
+}
+
+@media(max-width: 1400px){
+    h2{
+        font-size: 1.5rem;
+    }
+
+    .txt-area{
+        font-size: 0.9rem;
+    }
+}
+
+@media(max-width: 1200px){
+    h2{
+        font-size: 1.2rem;
+    }
+
+    .txt-area{
+        font-size: 0.8rem;
+    }
+}
+
